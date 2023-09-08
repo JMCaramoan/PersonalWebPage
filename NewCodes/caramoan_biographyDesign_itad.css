@@ -1,0 +1,56 @@
+html{
+	scroll-behavior: smooth;
+}
+p{
+	color: white;
+}
+strong{
+	color: green;
+}
+div{
+	border: 2px solid #1aa7ec;
+	border-radius: 20px;
+	margin: 5px;
+	padding: 15px;
+}
+img.a{
+	width: 200px;
+	height: 150px;
+	padding: 15px;
+	opacity: 1;
+	border-radius:20px;
+	transition: 0.3s;
+}
+
+img.a:hover{
+	width: 200px;
+	height: 150px;
+	padding: 15px;
+	opacity: 1;
+	border-radius:20px;
+	transform: rotate(-5deg);
+	box-shadow: 30px 100px 50px 15px #55CEFF inset;
+	}
+
+img.b{
+	width: 150px;
+	height: 100px;
+	padding: 15px;
+	border-radius:20px;
+	float: left;
+	transition: 0.5s;
+}
+
+img.c{
+	width: 150px;
+	height: 100px;
+	padding: 15px;
+	border-radius:20px;
+	float: right;
+	transition: 0.5s;
+}
+
+img:hover{
+	opacity:1;
+	transform: rotate(360deg);
+}
